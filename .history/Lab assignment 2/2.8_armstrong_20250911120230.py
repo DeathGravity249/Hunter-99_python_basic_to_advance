@@ -1,0 +1,1 @@
+## armstrong number is a no whose digit 
