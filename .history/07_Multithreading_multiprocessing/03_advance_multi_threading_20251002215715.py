@@ -10,10 +10,7 @@ def print_number(number):
 numbers=[1,2,3,4,5,6,7,8,9,0,]
 
 with ThreadPoolExecutor(max_workers=3) as executor:
-    #“Hey executor! Please take the function print_number() 
-    # and apply it to every item in numbers, but do it
-    #  using threads (up to max_workers at a time), 
-    # and give me back the results in order.”
+    #“Hey executor! Please take the function print_number() and apply it to every item in numbers, but do it using threads (up to max_workers at a time), and give me back the results in order.”
     results=executor.map(print_number,numbers)
 
 for result in results:
