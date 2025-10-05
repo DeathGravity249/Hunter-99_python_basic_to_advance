@@ -1,0 +1,12 @@
+## armstrong number n->no of digit , is is number whose each digit nth time square
+## and its sums is equalt to the same number 
+def armstrong_nums(x):
+    sum=0
+    while(x!=0):
+        digit=x%10
+        num = digit**x
+        sum=sum + num
+        x=x/10
+    if()
+x=int(input("Enter the number : "))
+armstrong_num(x)
