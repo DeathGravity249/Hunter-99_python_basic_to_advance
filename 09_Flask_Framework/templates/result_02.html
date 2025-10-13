@@ -4,15 +4,18 @@
     <title>Final Results</title>
 </head>
 <body>
-    <h2>Final results</h2>
+    <h2>Final Results</h2>
     <table border="2">
         {% for key, value in results.items() %}
-            {# this is comment section #}
             <tr>
                 <th>{{ key }}</th>
                 <td>{{ value }}</td>
             </tr>
         {% endfor %}
     </table>
+    <ul>
+        <li><a href="{{ url_for('form') }}">Go to Form</a></li>
+        <li><a href="{{ url_for('successess', score=85) }}">Check Results (Score: 85)</a></li>
+    </ul>
 </body>
 </html>
