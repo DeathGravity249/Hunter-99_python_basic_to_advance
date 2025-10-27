@@ -1,1 +1,0 @@
-## armstrong number is a no whose digit n square of 

@@ -1,1 +1,0 @@
-## armstrong number n->no of digit , 
