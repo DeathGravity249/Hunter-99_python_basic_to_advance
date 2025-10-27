@@ -1,0 +1,9 @@
+EmployeeID,Name,Department,Salary,Experience,ProjectsCompleted,PerformanceScore,OvertimeHours
+101,John Smith,Engineering,75000,5,12,88,10
+102,Alice Johnson,Marketing,,3,9,79,5
+103,Bob Lee,Engineering,82000,6,15,92,8
+104,Lisa Ray,Sales,68000,,10,85,12
+105,Tom Hardy,,72000,4,11,74,7
+106,Sarah Green,Marketing,79000,5,13,90,9
+107,Michael Tan,Engineering,84000,7,16,95,11
+108,Emily White,Sales,66000,2,7,70,6
